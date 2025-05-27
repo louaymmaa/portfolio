@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louay Mohammed Asiri - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header section with name and profile photo -->
+    <header class="header">
+        <div class="profile-container">
+            <img src="images/٢٠٢٤٠٩٠٨_١٨٤١١٢.jpg" alt="Louay Mohammed Asiri" class="profile-photo">
+            <h1>Louay Mohammed Asiri</h1>
+        </div>
+    </header>
+
+    <!-- About Me section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I am a third-year Computer Science student at King Khalid University, passionate about software development. With a strong foundation in programming and web development, I continuously expand my skills and knowledge in the field of computer science.</p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Web Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Trae</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <a href="https://github.com/louaymmaa/ai-chatbot-student-helper" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Project 1 - AI Chatbot - Student helper</h3>
+                    <p>A simple Python-based chatbot that answers common student questions about the summer semester using pre-programmed responses.</p>                
+                </div>
+            </a>
+            <a href="https://github.com/louaymmaa/storage-management-website" target="_blank" class="project-link">
+                <div class="project-card">
+                    <h3>Project 2 - storage management website</h3>
+                    <p>A responsive web application for managing storage operations, built with HTML, CSS, JavaScript, and PHP, with full support for both English and Arabic.</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <a href="mailto:louaymmaa@hotmail.com">louaymmaa@hotmail.com</a><br><br>
+        <a href="tel:+966 551 355 273">+966 551 355 273</a><br><br>
+        <a href="https://www.linkedin.com/in/louay-asiri-b80b4326a/" target="_blank">LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Louay Mohammed Asiri. All rights reserved.</p>
+
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+        </script>
+            </footer>
+</body>
+</html>
